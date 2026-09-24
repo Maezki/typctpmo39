@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button data-seccion="sobre-mi">Sobre mí</button>
+            <button data-seccion="proyectos">Proyectos</button>
+            <button data-seccion="logros">Logros</button>
+            <button data-seccion="actualidad">Actualidad</button>
+        </nav>
+        <div class="portada">
+            <div class="foto-container">
+                <img src="fotito.jpg" alt="Foto de perfil">
+            </div>
+            <h1>Maximo Olivari</h1>
+            <p>Mi trayectoria en el CENS</p>
+            <button class="boton-principal" data-seccion="sobre-mi">
+                Conocé mi historia
+            </button>
+        </div>
+    </header>
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <img src="cens.jpg" alt="escuela">
+        </section>
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <article>
+                <h3>Pagina web</h3>
+                <p>
+                    El desarrollo de esta pagina.
+                </p>
+            </article>
+            <article>
+                <h3>24 de Marzo</h3>
+                <p>
+                    Trabajo grupal en recuerdo al aniversario de 50 años de la dictadura civico militar.
+                </p>
+            </article>
+        </section>
+        <section id="logros">
+            <h2>Logros y méritos</h2>
+            <ul>
+                <li>Continuar y avanzar en mi trayectoria educativa durante estos años.</li>
+                <li>Adquirir nuevos conocimientos y experiencias a lo largo de mi paso por el CENS.</li>
+            </ul>
+        </section>
+        <section id="actualidad">
+            <h2>Mi etapa actual</h2>
+            <p>
+                Actualmente estoy cursando mi último año en el CENS. 
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>Mi Portfolio - CENS</p>
+        <div class="copyright">
+            <img src="cc.jpg" alt="copyright-logo">
+            <span>
+                <h6>© 2026 Maximo Olivari - Todos los derechos reservados.</h6>
+            </span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
